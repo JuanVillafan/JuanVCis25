@@ -12,7 +12,7 @@ int main()
     int placehold;
     placehold = num1;
     num1 = num2;
-    num2 = num1;
+    num2 = placehold;
     cout << "Switched Values : " << endl;
     cout << "num1 = " << num1 << endl << "num2 = " << num2 << endl;
 
