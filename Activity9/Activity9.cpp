@@ -3,7 +3,7 @@
 using namespace std;
 int main()
 {
-	//four applicants, reffered to as 1 and 2 and 3 and 4: 
+
 	string citizen;
 	string bachelor;
 	int experience;
