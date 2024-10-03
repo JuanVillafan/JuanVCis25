@@ -36,6 +36,7 @@ int main()
 
 	if (palindromeCheck(Palindrome, LengthPalindrome) == true) {
 		cout << originalPalindrome << " is a palindrome" << endl;
+		return 0;
 	}
 	
 	else if(palindromeCheck(Palindrome, LengthPalindrome) == false) {
