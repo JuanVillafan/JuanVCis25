@@ -4,13 +4,7 @@
 
 using namespace std;
 
-/*void Classroom(int students[]) {
-	for (int i = 0; i < 30; i++) {
-		cout << "Grade of Student #" << i + 1 << " is : ";
-		cin >> students[i];
-	}
-}
-*/
+
 double averageGrade(int students[], int totalStudent) {
 	double average=0;
 	for (int i = 0; i < totalStudent; i++)
