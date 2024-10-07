@@ -5,17 +5,15 @@ using namespace std;
 
 const int x = 15;
 
-void linearSearch(int arr[],int value) {
+int linearSearch(int arr[],int value) {
 	for (int i = 0; i < x; i++) {
 		if (arr[i] == value) {
-			cout << "Value = " << arr[i] << "  ||  Array location = " << i << endl;
-			break;
+			return i;
 		}
 		while (i == x - 1) {
 			if (arr[i] != value) {
-				cout << -1;
+				return -1;
 			}
-			break;
 		}
 	}
 
@@ -33,5 +31,6 @@ int main() {
 	
 	cin >> value;
 	
-	linearSearch(arr,value);
+	cout<<linearSearch(arr,value);
+	return linearSearch(arr,value);
 }
